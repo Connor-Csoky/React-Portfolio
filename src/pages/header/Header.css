@@ -1,0 +1,16 @@
+.header {
+  height: 100vh;
+  background: linear-gradient(rgb(20, 6, 2), #121212);
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    height: 62vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .header {
+    height: 45vh;
+  }
+}

@@ -1,0 +1,44 @@
+.education-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.education-container h1{
+  font-size: 70px;
+}
+.education {
+  display: flex;
+  justify-content: space-around;
+  width: 95vw;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 2rem
+}
+
+.column-img {
+  width: 400px;
+  height: 200px;
+  background: white;
+  margin-bottom: .5rem;
+}
+
+.column {
+  width: 400px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .column-img {
+    width: 80vw;
+    height: 30vw;
+  }
+
+  .column {
+    width: 80vw;
+    height: fit-content;
+  }
+
+}

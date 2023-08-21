@@ -1,0 +1,72 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 12vh 6vw;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 30px;
+  color: white;
+  width: 500px;
+  height: fit-content;
+}
+
+.project-text-container h1 {
+  font-size: 50px;
+}
+
+/* image should be pushed under the text and be full screen size on screen shrink */
+.project-image {
+  width: 40vw;
+  height: 25vw;
+  min-width: 300px;
+}
+
+.project1 {
+  flex-wrap: wrap-reverse;
+}
+
+button {
+  background: rgb(221, 123, 44);
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+  .project-image {
+    width: 80vw;
+    height: 60vw;
+  }
+
+  .project-text-container {
+    width: 80vw;
+  }
+
+}
+
+@media only screen and (max-width: 630px) {
+  /* .project-text-container {
+    width: 80vw;
+    align-items: center;
+    text-align: left;
+  } */
+
+  .project-container {
+    justify-content: center;
+  }
+
+}

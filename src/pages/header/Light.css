@@ -1,0 +1,7 @@
+.light {
+  width: 30vw;
+  min-width: 100px;
+  opacity: 70%;
+  transform: scaleX(-1);
+  right: 0;
+}

@@ -1,0 +1,33 @@
+.links {
+  height: 40px;
+  color: rgb(221, 123, 44);
+}
+
+.mySidebar {
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1b1a1a;
+  z-index: 100;
+  opacity: 90%;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  z-index: 100;
+}
+
+.link-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem 0 0 2rem;
+}
