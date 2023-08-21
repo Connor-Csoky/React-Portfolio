@@ -47,5 +47,6 @@ img {
 
   .collapse {
     visibility: visible;
+    cursor: pointer;
   }
 }
