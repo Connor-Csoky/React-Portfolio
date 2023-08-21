@@ -1,10 +1,10 @@
 import React from "react";
 import "./Sidenav.css";
 
-export default function Sidenav({collapse}) {
-  if(collapse) {
+export default function Sidenav({ collapse }) {
+  if (collapse) {
     return (
-      <div style={{display: "flex"}} className="mySidebar">
+      <div style={{ display: "flex" }} className="mySidebar">
         <ul className="link-container">
           <li>
             <a href="#" className="links">
@@ -30,5 +30,4 @@ export default function Sidenav({collapse}) {
       </div>
     );
   }
-  
 }

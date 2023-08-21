@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.education-container h1{
+.education-container h1 {
   font-size: 70px;
 }
 .education {
@@ -16,14 +16,14 @@
   width: 95vw;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 1rem 2rem
+  padding: 1rem 2rem;
 }
 
 .column-img {
   width: 400px;
   height: 200px;
   background: white;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .column {
@@ -40,5 +40,4 @@
     width: 80vw;
     height: fit-content;
   }
-
 }
