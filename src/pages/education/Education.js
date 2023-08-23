@@ -7,7 +7,7 @@ import Thad from "./thad.png";
 export default function Education() {
   return (
     <div className="education-container">
-      <h1>Education</h1>
+      {/* <h1>Education</h1> */}
       <div className="education">
         <div className="column">
           <img className="column-img" src={Thad} alt="school" />

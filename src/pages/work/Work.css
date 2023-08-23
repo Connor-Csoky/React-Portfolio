@@ -1,0 +1,59 @@
+.work-container {
+  display: flex;
+  color: white;
+  padding-top: 5rem;
+}
+
+.default {
+  margin: 4rem 6rem 1rem 6rem;
+}
+
+.left-container,
+.right-container {
+  width: 50vw;
+}
+
+.left-container a {
+  color: rgb(221, 123, 44);
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  /* border: 1px solid blue; */
+}
+
+.left-container p {
+  padding: 1.5rem 0;
+}
+
+.top-section,
+.bottom-section {
+  width: 30vw;
+  line-height: 28px;
+  /* border: 1px solid red; */
+  height: fit-content;
+}
+
+.bottom-section {
+  display: flex;
+  gap: 1rem;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  /* border: 1px solid green; */
+}
+
+.right-container img {
+  width: 40vw;
+  height: 50vh;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+}
