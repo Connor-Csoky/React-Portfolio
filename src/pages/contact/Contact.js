@@ -27,6 +27,7 @@ const Contact = () => {
 
   return (
     <div className="formHolder">
+      <h1>Contact Me</h1>
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div>
           <label>Name</label>
@@ -40,7 +41,7 @@ const Contact = () => {
           <label>Message</label>
           <textarea name="message" />
         </div>
-        <input type="submit" value="Send" />
+        <button type="submit">Send</button>
       </form>
     </div>
   );

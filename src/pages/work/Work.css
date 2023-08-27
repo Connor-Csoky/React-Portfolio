@@ -1,7 +1,13 @@
-.work-container {
+.work-wrapper {
+  width: 100%;
+  padding: 0 8vw;
   display: flex;
+  justify-content: center;
   color: white;
-  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: 30px;
 }
 
 .default {
@@ -10,7 +16,7 @@
 
 .left-container,
 .right-container {
-  width: 50vw;
+  width: 45vw;
 }
 
 .left-container a {
@@ -20,35 +26,30 @@
 .left-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   gap: 5rem;
   /* border: 1px solid blue; */
 }
 
 .left-container p {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .top-section,
 .bottom-section {
   width: 30vw;
-  line-height: 28px;
-  /* border: 1px solid red; */
   height: fit-content;
 }
 
 .bottom-section {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .right-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 0;
-  /* border: 1px solid green; */
 }
 
 .right-container img {
@@ -56,4 +57,26 @@
   height: 50vh;
   margin-bottom: 0.5rem;
   object-fit: contain;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .right-container {
+    display: none;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+
+  .top-section,
+  .bottom-section {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .greeting {
+    padding-top: 5vh;
+  }
 }

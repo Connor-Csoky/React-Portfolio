@@ -6,12 +6,9 @@ import Thad from "./thad.png";
 
 export default function Education() {
   return (
-    <div className="education-container">
-      {/* <h1>Education</h1> */}
       <div className="education">
         <div className="column">
           <img className="column-img" src={Thad} alt="school" />
-          {/* <h2>Thaddeus Stevens College of Technology</h2> */}
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Doloremque, nihil minus. Ipsam debitis voluptatibus reiciendis
@@ -22,7 +19,6 @@ export default function Education() {
         </div>
         <div className="column">
           <img className="column-img" src={Hacc} alt="school" />
-          {/* <h2>Harrisburg Area Community College</h2> */}
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Doloremque, nihil minus. Ipsam debitis voluptatibus reiciendis
@@ -33,7 +29,6 @@ export default function Education() {
         </div>
         <div className="column">
           <img className="column-img" src={Mtsd} alt="school" />
-          {/* <h2>Manheim Township Highschool</h2> */}
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Doloremque, nihil minus. Ipsam debitis voluptatibus reiciendis
@@ -43,6 +38,5 @@ export default function Education() {
           </p>
         </div>
       </div>
-    </div>
   );
 }

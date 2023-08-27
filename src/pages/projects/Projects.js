@@ -10,7 +10,8 @@ export default function Projects() {
   React.useEffect(() => {
     function handleResize() {
       if (window.innerWidth < 630) {
-        setText("Lorem ipsum dolor sit consectetur adipisicing elit.");
+        setText("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum\
+        inventore ipsum sunt laborum velit voluptatem atque deserunt.");
       } else {
         setText("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum\
         inventore ipsum sunt laborum velit voluptatem atque deserunt\
@@ -33,7 +34,6 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <hr />
       <div className="project-container ">
         <div className="project-text-container">
           <h1>Arcade</h1>
