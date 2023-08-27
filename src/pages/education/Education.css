@@ -4,7 +4,7 @@
   gap: .5rem;
   flex-direction: column;
   color: white;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .education-container h1 {

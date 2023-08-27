@@ -6,11 +6,11 @@
 
 @media only screen and (max-width: 1000px) {
   .header {
-    height: 62vh;
+    height: 55vh;
   }
 }
 @media only screen and (max-width: 600px) {
   .header {
-    height: 45vh;
+    height: 35vh;
   }
 }
