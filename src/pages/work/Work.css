@@ -14,9 +14,11 @@
   margin: 7rem 6rem 1rem 6rem;
 }
 
-.left-container,
+.left-container {
+  width: 60%;
+}
 .right-container {
-  width: 45vw;
+  width: 38%;
 }
 
 .left-container a {
@@ -37,7 +39,7 @@
 
 .top-section,
 .bottom-section {
-  width: 30vw;
+  width: 40vw;
   height: fit-content;
 }
 
@@ -53,8 +55,8 @@
 }
 
 .right-container img {
-  width: 40vw;
-  height: 50vh;
+  width: 100%;
+  height: auto;
   margin-bottom: 0.5rem;
   object-fit: contain;
 }

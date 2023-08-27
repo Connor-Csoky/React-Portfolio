@@ -15,8 +15,8 @@
   gap: 2rem;
   color: white;
   flex-direction: column;
-  width: 100vw;
-  padding: 0 8vw 7rem 8vw ;
+  width: 100%;
+  padding: 0 8vw 0 8vw ;
 }
 
 .form input {

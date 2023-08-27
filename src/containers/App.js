@@ -5,6 +5,7 @@ import Education from "../pages/education/Education";
 import Work from "../pages/work/Work";
 import Contact from "../pages/contact/Contact";
 import Hr from "../components/Hr";
+import EndHr from "../components/EndHr";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Projects />
       <Hr />
       <Contact />
+      <EndHr />
     </div>
   );
 }
