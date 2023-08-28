@@ -16,21 +16,25 @@
   color: white;
   flex-direction: column;
   width: 100%;
-  padding: 0 8vw 0 8vw ;
+  padding: 0 8vw 0 8vw;
+}
+
+.form input,
+.form button,
+.form textarea {
+  width: 50vw;
+  border-radius: .25rem;
 }
 
 .form input {
-  width: 50vw;
   height: 30px;
 }
 
 .form button {
-  width: 50vw;
   height: 40px;
 }
 
 .form textarea {
-  width: 50vw;
   height: 200px;
 }
 
@@ -39,14 +43,13 @@
   flex-direction: column;
 }
 
-
 @media only screen and (max-width: 1300px) {
-  
   .form div {
     width: 100%;
   }
-  
-  .form input, .form button {
+
+  .form input,
+  .form button {
     width: 100%;
   }
   .form textarea {

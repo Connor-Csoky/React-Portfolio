@@ -81,4 +81,9 @@
   .greeting {
     padding-top: 5vh;
   }
+
+  .bottom-section {
+    flex-wrap: wrap;
+  }
+
 }

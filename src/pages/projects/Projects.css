@@ -39,13 +39,7 @@
   flex-wrap: wrap-reverse;
 }
 
-button {
-  background: rgb(221, 123, 44);
-  width: 100px;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-}
+
 
 @media only screen and (max-width: 1300px) {
   .project-image {
