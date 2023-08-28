@@ -6,10 +6,11 @@ import Sidenav from "../../components/Sidenav";
 
 export default function Header(props) {
   return (
-    <div className="header">
+    <div id="header" className="header">
       <Navigation />
       <Sidenav />
       <Greeting />
+      <div id="education"></div>
     </div>
   );
 }

@@ -26,20 +26,20 @@ const Contact = () => {
   };
 
   return (
-    <div className="formHolder">
+    <div id="contact" className="formHolder">
       <h1>Contact Me</h1>
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div>
           <label>Name</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="user_name" required/>
         </div>
         <div>
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input type="email" name="user_email" required/>
         </div>
         <div>
           <label>Message</label>
-          <textarea name="message" />
+          <textarea name="message" required/>
         </div>
         <button type="submit">Send</button>
       </form>

@@ -33,7 +33,7 @@ export default function Projects() {
   const changeText = () => {};
 
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div className="project-container ">
         <div className="project-text-container">
           <h1>Arcade</h1>

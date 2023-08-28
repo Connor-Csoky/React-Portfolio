@@ -1,3 +1,7 @@
 .default-hr {
   padding: 7rem 8vw;
 }
+
+.end-hr {
+  padding: 7rem 8vw 2rem 8vw;
+}

@@ -12,7 +12,9 @@ export default function App() {
     <div>
       <Header />
       <Education />
-      <Hr />
+      <div id="work" className="default-hr">
+        <hr />
+      </div>
       <Work />
       <Hr />
       <Projects />
