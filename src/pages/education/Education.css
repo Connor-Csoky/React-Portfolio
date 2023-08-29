@@ -21,6 +21,10 @@
   width: 400px;
 }
 
+.column ul {
+  padding-left: 1rem;
+}
+
 @media only screen and (max-width: 1200px) {
   .column-img {
     width: 100%;

@@ -33,8 +33,12 @@
   /* border: 1px solid blue; */
 }
 
-.left-container p {
+.left-container ul, .left-container p {
   padding: 1rem 0;
+}
+
+.left-container ul {
+  padding-left: 1rem;
 }
 
 .top-section,
@@ -45,7 +49,11 @@
 
 .bottom-section {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
+}
+
+.bottom-section div {
+  width: 50%;
 }
 
 .right-container {
@@ -61,7 +69,7 @@
   object-fit: contain;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
 
   .right-container {
     display: none;

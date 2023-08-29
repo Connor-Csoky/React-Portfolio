@@ -5,37 +5,33 @@ import Mtsd from "./mtsd.jpg";
 import Thad from "./thad.png";
 
 export default function Education() {
+
+
   return (
       <div id="education" className="education">
         <div className="column">
           <img className="column-img" src={Thad} alt="school" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Doloremque, nihil minus. Ipsam debitis voluptatibus reiciendis
-            facere magni tempora recusandae quos facilis deleniti molestias!
-            Labore expedita nam saepe facere in. Quo animi aliquam eveniet
-            perspiciatis porro?
-          </p>
+          <ul>
+            <li>Associate of Applied Science, Computer Software Engineering Technology</li>
+            <li>Thaddeus Stevens College of Technology ▪ Lancaster, PA </li>
+            <li>August 2021 – May 2023 </li>
+          </ul>
         </div>
         <div className="column">
           <img className="column-img" src={Hacc} alt="school" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Doloremque, nihil minus. Ipsam debitis voluptatibus reiciendis
-            facere magni tempora recusandae quos facilis deleniti molestias!
-            Labore expedita nam saepe facere in. Quo animi aliquam eveniet
-            perspiciatis porro?
-          </p>
+          <ul>
+            <li>Coursework in, Computer Information Systems </li>
+            <li>Harrisburg Area Community College ▪ Lancaster, PA </li>
+            <li>August 2019 – January 2020</li>
+          </ul>
         </div>
         <div className="column">
           <img className="column-img" src={Mtsd} alt="school" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Doloremque, nihil minus. Ipsam debitis voluptatibus reiciendis
-            facere magni tempora recusandae quos facilis deleniti molestias!
-            Labore expedita nam saepe facere in. Quo animi aliquam eveniet
-            perspiciatis porro?
-          </p>
+          <ul>
+            <li>Diploma</li>
+            <li>Manheim Township High School ▪ Lancaster, PA</li>
+            <li>August 2014 – May 2018</li>
+          </ul>
         </div>
       </div>
   );

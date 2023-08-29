@@ -5,39 +5,13 @@ import RoboFriends from "./robofriends.png";
 import { useState } from "react";
 
 export default function Projects() {
-  const [text, setText] = useState();
-
-  React.useEffect(() => {
-    function handleResize() {
-      if (window.innerWidth < 630) {
-        setText("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum\
-        inventore ipsum sunt laborum velit voluptatem atque deserunt.");
-      } else {
-        setText("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum\
-        inventore ipsum sunt laborum velit voluptatem atque deserunt\
-        reiciendis minus soluta, temporibus voluptatum molestias laudantium\
-        vero aut quas veniam quasi iusto possimus? Necessitatibus laudantium\
-        doloremque dolore iusto, provident eum impedit aliquam. Fugiat\
-        incidunt nesciunt quidem vero distinctio cupiditate ut cumque\
-        veritatis.");
-      }
-    }
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const changeText = () => {};
 
   return (
     <div id="projects" className="projects">
       <div className="project-container ">
         <div className="project-text-container">
-          <h1>Arcade</h1>
-          <p>{text}</p>
+          <h1>RoboFriends</h1>
+          <p>My first website using react. A project assigned through "ZeroToMastery" web development course. Essential in helping build my career as a web developer and develop upon my skills.</p>
           <button>View</button>
         </div>
         <img className="project-image" src={Arcade} alt="arcade" />
@@ -46,9 +20,9 @@ export default function Projects() {
       <div className="project-container project1">
         <img className="project-image" src={RoboFriends} alt="arcade" />
         <div className="project-text-container">
-          <h1>RoboFriends</h1>
-          <p>{text}</p>
-          <button>View</button>
+          <h1>Arcade</h1>
+          <p>A small arcade made up of games that I created. I created the different games to test features such as javascripts canvas, and animations using html and css. This project taught me many valuable lessons about web development.</p>
+          <a href="https://connor-csoky.github.io/Coding-Projects/"><button>View</button></a> 
         </div>
       </div>
     </div>

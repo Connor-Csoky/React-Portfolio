@@ -10,16 +10,14 @@ export default function Work() {
         <div className="top-section">
           <h1>Work Experience</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            perferendis vero beatae est omnis laudantium sed dolores, commodi
-            placeat, nostrum maxime facere perspiciatis illo nisi.
+            Thaddeus Stevens College of Technology graduate with magna cum laude
+            distinction (3.92 GPA) in Computer Software Engineering Technology,
+            actively pursuing an entry-level position as a Front End or Back End
+            developer.
           </p>
           <button>Resume</button>
         </div>
-        <div className="bottom-section">
-          <Job />
-          <Job />
-        </div>
+        <Job />
       </div>
       <div className="right-container">
         <div>
